@@ -1,8 +1,9 @@
-var gulp = require('gulp'),
-  browserify = require('gulp-browserify'),
-  webserver = require('gulp-webserver'),
-  src = './process',
-  app = './builds/app';
+var gulp = require('gulp');
+var browserify = require('gulp-browserify');
+var webserver = require('gulp-webserver');
+
+var src = './process';
+var app = './builds/app';
 
 gulp.task('js', function() {
   return gulp
