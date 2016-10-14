@@ -8,6 +8,10 @@
         "React": true
     },
 
+    "extends": "eslint-config-google",
+
+    "parser": "babel-eslint",
+
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true,
@@ -15,13 +19,7 @@
         }
     },
 
-    "parser": "babel-eslint",
-
-    "plugins": [
-        "react"
-    ],
-
-    "extends": "eslint-config-google",
+    "plugins": ["react"],
 
     "rules": {
       "react/jsx-uses-react": "error",
