@@ -2,8 +2,8 @@ var gulp = require('gulp');
 var browserify = require('gulp-browserify');
 var webserver = require('gulp-webserver');
 
-var src = './process';
-var app = './builds/app';
+var src = './src';
+var app = './public';
 
 gulp.task('js', function() {
   return gulp
