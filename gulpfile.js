@@ -7,8 +7,8 @@ var app = './public';
 
 gulp.task('js', function() {
   return gulp
-    .src(src + '/js/app.js')
-    .pipe(browserify({transform: 'reactify', debug: true}))
+    .src(src + '/index.js')
+    .pipe(browserify({transform: 'babelify', debug: true}))
     .on('error', function(err) {
       console.error('Error!', err.message);
     }).pipe(gulp.dest(app + '/js'));
@@ -23,7 +23,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch(src + '/js/**/*.js', ['js']);
+  gulp.watch(src + '/**/*.js', ['js']);
   gulp.watch(app + '/css/**/*.css', ['css']);
   gulp.watch([app + '/**/*.html'], ['html']);
 });
