@@ -5,6 +5,7 @@
   "author": "Udit Vasu",
   "devDependencies": {
     "babel-eslint": "^7.0.0",
+    "babelify": "^7.3.0",
     "eslint": "^3.7.1",
     "eslint-config-google": "^0.6.0",
     "eslint-plugin-react": "^6.4.0",
@@ -14,7 +15,6 @@
     "gulp-webserver": "^0.8.8",
     "lodash": "^4.13.1",
     "react": "^15.1.0",
-    "react-dom": "^15.1.0",
-    "reactify": "^1.1.1"
+    "react-dom": "^15.1.0"
   }
 }

@@ -1,6 +1,6 @@
 .DS_Store
 .tmp
-builds/app/js/app.js
+public/js/index.js
 
 ### Node ###
 # Logs
